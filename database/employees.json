@@ -1,0 +1,22 @@
+{
+    "employees": [
+        {
+            "firstname": "Chendrayan",
+            "lastname": "Venkatesan",
+            "dateofjoining": "01/01/2005",
+            "department": "IT",
+            "manager": "YTD",
+            "country": "India",
+            "city": "Bangalore"
+        },
+        {
+            "firstname": "Deepak",
+            "lastname": "Dhami",
+            "dateofjoining": "01/03/2005",
+            "department": "IT",
+            "manager": "YTD",
+            "country": "India",
+            "city": "Bangalore"
+        }
+    ]
+}

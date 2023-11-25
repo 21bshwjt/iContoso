@@ -1,0 +1,325 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">PSHTML</S>
+      <S N="Version">0.8.2</S>
+      <S N="Type">Module</S>
+      <S N="Description">Cross platform PowerShell module to generate HTML markup language and create awesome web pages!</S>
+      <S N="Author">Stéphane van Gulick</S>
+      <S N="CompanyName">stephanevg</S>
+      <S N="Copyright">(c) 2018 Stéphane van Gulick. All rights reserved.</S>
+      <DT N="PublishedDate">2019-10-20T13:34:38+05:30</DT>
+      <Nil N="InstalledDate" />
+      <Nil N="UpdatedDate" />
+      <Nil N="LicenseUri" />
+      <URI N="ProjectUri">https://github.com/Stephanevg/PSHTML</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="1">
+        <TN RefId="1">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+          <S>pshtml</S>
+          <S>html</S>
+          <S>web</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="2">
+        <TN RefId="2">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">DscResource</S>
+            <Obj N="Value" RefId="3">
+              <TNRef RefId="1" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="4">
+              <TNRef RefId="1" />
+              <LST>
+                <S>a</S>
+                <S>address</S>
+                <S>area</S>
+                <S>article</S>
+                <S>aside</S>
+                <S>b</S>
+                <S>base</S>
+                <S>blockquote</S>
+                <S>body</S>
+                <S>br</S>
+                <S>button</S>
+                <S>canvas</S>
+                <S>caption</S>
+                <S>Clear-WhiteSpace</S>
+                <S>col</S>
+                <S>colgroup</S>
+                <S>ConvertTo-HtmlTable</S>
+                <S>ConvertTo-PSHtmlTable</S>
+                <S>datalist</S>
+                <S>dd</S>
+                <S>div</S>
+                <S>dl</S>
+                <S>doctype</S>
+                <S>dt</S>
+                <S>em</S>
+                <S>fieldset</S>
+                <S>figcaption</S>
+                <S>figure</S>
+                <S>footer</S>
+                <S>Form</S>
+                <S>Get-PSHTMLAsset</S>
+                <S>Get-PSHTMLColor</S>
+                <S>Get-PSHTMLConfiguration</S>
+                <S>Get-PSHTMLInclude</S>
+                <S>h1</S>
+                <S>h2</S>
+                <S>h3</S>
+                <S>h4</S>
+                <S>h5</S>
+                <S>h6</S>
+                <S>head</S>
+                <S>Header</S>
+                <S>hr</S>
+                <S>html</S>
+                <S>i</S>
+                <S>img</S>
+                <S>input</S>
+                <S>Install-PSHTMLVSCodeSnippets</S>
+                <S>keygen</S>
+                <S>label</S>
+                <S>legend</S>
+                <S>li</S>
+                <S>link</S>
+                <S>map</S>
+                <S>math</S>
+                <S>meta</S>
+                <S>meter</S>
+                <S>nav</S>
+                <S>New-PSHTMLCDNAssetFile</S>
+                <S>New-PSHTMLChart</S>
+                <S>New-PSHTMLChartBarDataSet</S>
+                <S>New-PSHTMLChartDataSet</S>
+                <S>New-PSHTMLChartDoughnutDataSet</S>
+                <S>New-PSHTMLChartLineDataSet</S>
+                <S>New-PSHTMLChartPieDataSet</S>
+                <S>New-PSHTMLChartPolarAreaDataSet</S>
+                <S>New-PSHTMLChartRadarDataSet</S>
+                <S>New-PSHTMLDropDownList</S>
+                <S>New-PSHTMLDropDownListItem</S>
+                <S>noscript</S>
+                <S>ol</S>
+                <S>optgroup</S>
+                <S>option</S>
+                <S>Out-PSHTMLDocument</S>
+                <S>output</S>
+                <S>p</S>
+                <S>pre</S>
+                <S>progress</S>
+                <S>script</S>
+                <S>section</S>
+                <S>selecttag</S>
+                <S>small</S>
+                <S>span</S>
+                <S>strong</S>
+                <S>style</S>
+                <S>sub</S>
+                <S>sup</S>
+                <S>table</S>
+                <S>tbody</S>
+                <S>td</S>
+                <S>textarea</S>
+                <S>tfoot</S>
+                <S>th</S>
+                <S>thead</S>
+                <S>title</S>
+                <S>tr</S>
+                <S>ul</S>
+                <S>Write-PSHTMLAsset</S>
+                <S>Write-PSHTMLInclude</S>
+                <S>Write-PSHTMLMenu</S>
+                <S>Write-PSHTMLSymbol</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="3" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="3" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="1" />
+              <LST>
+                <S>a</S>
+                <S>address</S>
+                <S>area</S>
+                <S>article</S>
+                <S>aside</S>
+                <S>b</S>
+                <S>base</S>
+                <S>blockquote</S>
+                <S>body</S>
+                <S>br</S>
+                <S>button</S>
+                <S>canvas</S>
+                <S>caption</S>
+                <S>Clear-WhiteSpace</S>
+                <S>col</S>
+                <S>colgroup</S>
+                <S>ConvertTo-HtmlTable</S>
+                <S>ConvertTo-PSHtmlTable</S>
+                <S>datalist</S>
+                <S>dd</S>
+                <S>div</S>
+                <S>dl</S>
+                <S>doctype</S>
+                <S>dt</S>
+                <S>em</S>
+                <S>fieldset</S>
+                <S>figcaption</S>
+                <S>figure</S>
+                <S>footer</S>
+                <S>Form</S>
+                <S>Get-PSHTMLAsset</S>
+                <S>Get-PSHTMLColor</S>
+                <S>Get-PSHTMLConfiguration</S>
+                <S>Get-PSHTMLInclude</S>
+                <S>h1</S>
+                <S>h2</S>
+                <S>h3</S>
+                <S>h4</S>
+                <S>h5</S>
+                <S>h6</S>
+                <S>head</S>
+                <S>Header</S>
+                <S>hr</S>
+                <S>html</S>
+                <S>i</S>
+                <S>img</S>
+                <S>input</S>
+                <S>Install-PSHTMLVSCodeSnippets</S>
+                <S>keygen</S>
+                <S>label</S>
+                <S>legend</S>
+                <S>li</S>
+                <S>link</S>
+                <S>map</S>
+                <S>math</S>
+                <S>meta</S>
+                <S>meter</S>
+                <S>nav</S>
+                <S>New-PSHTMLCDNAssetFile</S>
+                <S>New-PSHTMLChart</S>
+                <S>New-PSHTMLChartBarDataSet</S>
+                <S>New-PSHTMLChartDataSet</S>
+                <S>New-PSHTMLChartDoughnutDataSet</S>
+                <S>New-PSHTMLChartLineDataSet</S>
+                <S>New-PSHTMLChartPieDataSet</S>
+                <S>New-PSHTMLChartPolarAreaDataSet</S>
+                <S>New-PSHTMLChartRadarDataSet</S>
+                <S>New-PSHTMLDropDownList</S>
+                <S>New-PSHTMLDropDownListItem</S>
+                <S>noscript</S>
+                <S>ol</S>
+                <S>optgroup</S>
+                <S>option</S>
+                <S>Out-PSHTMLDocument</S>
+                <S>output</S>
+                <S>p</S>
+                <S>pre</S>
+                <S>progress</S>
+                <S>script</S>
+                <S>section</S>
+                <S>selecttag</S>
+                <S>small</S>
+                <S>span</S>
+                <S>strong</S>
+                <S>style</S>
+                <S>sub</S>
+                <S>sup</S>
+                <S>table</S>
+                <S>tbody</S>
+                <S>td</S>
+                <S>textarea</S>
+                <S>tfoot</S>
+                <S>th</S>
+                <S>thead</S>
+                <S>title</S>
+                <S>tr</S>
+                <S>ul</S>
+                <S>Write-PSHTMLAsset</S>
+                <S>Write-PSHTMLInclude</S>
+                <S>Write-PSHTMLMenu</S>
+                <S>Write-PSHTMLSymbol</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="3" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">https://github.com/Stephanevg/PSHTML/blob/master/Change_Log.md</S>
+      <Obj N="Dependencies" RefId="6">
+        <TNRef RefId="1" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="7">
+        <TN RefId="3">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) 2018 Stéphane van Gulick. All rights reserved.</S>
+          <S N="description">Cross platform PowerShell module to generate HTML markup language and create awesome web pages!</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="releaseNotes">https://github.com/Stephanevg/PSHTML/blob/master/Change_Log.md</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">23544</S>
+          <S N="downloadCount">34421</S>
+          <S N="packageSize">667415</S>
+          <S N="published">20-10-2019 13:34:38 +05:30</S>
+          <S N="created">20-10-2019 13:34:38 +05:30</S>
+          <S N="lastUpdated">25-11-2023 17:24:13 +05:30</S>
+          <S N="tags">PSEdition_Core PSEdition_Desktop pshtml html web PSModule PSFunction_a PSCommand_a PSFunction_address PSCommand_address PSFunction_area PSCommand_area PSFunction_article PSCommand_article PSFunction_aside PSCommand_aside PSFunction_b PSCommand_b PSFunction_base PSCommand_base PSFunction_blockquote PSCommand_blockquote PSFunction_body PSCommand_body PSFunction_br PSCommand_br PSFunction_button PSCommand_button PSFunction_canvas PSCommand_canvas PSFunction_caption PSCommand_caption PSFunction_Clear-WhiteSpace PSCommand_Clear-WhiteSpace PSFunction_col PSCommand_col PSFunction_colgroup PSCommand_colgroup PSFunction_ConvertTo-HtmlTable PSCommand_ConvertTo-HtmlTable PSFunction_ConvertTo-PSHtmlTable PSCommand_ConvertTo-PSHtmlTable PSFunction_datalist PSCommand_datalist PSFunction_dd PSCommand_dd PSFunction_div PSCommand_div PSFunction_dl PSCommand_dl PSFunction_doctype PSCommand_doctype PSFunction_dt PSCommand_dt PSFunction_em PSCommand_em PSFunction_fieldset PSCommand_fieldset PSFunction_figcaption PSCommand_figcaption PSFunction_figure PSCommand_figure PSFunction_footer PSCommand_footer PSFunction_Form PSCommand_Form PSFunction_Get-PSHTMLAsset PSCommand_Get-PSHTMLAsset PSFunction_Get-PSHTMLColor PSCommand_Get-PSHTMLColor PSFunction_Get-PSHTMLConfiguration PSCommand_Get-PSHTMLConfiguration PSFunction_Get-PSHTMLInclude PSCommand_Get-PSHTMLInclude PSFunction_h1 PSCommand_h1 PSFunction_h2 PSCommand_h2 PSFunction_h3 PSCommand_h3 PSFunction_h4 PSCommand_h4 PSFunction_h5 PSCommand_h5 PSFunction_h6 PSCommand_h6 PSFunction_head PSCommand_head PSFunction_Header PSCommand_Header PSFunction_hr PSCommand_hr PSFunction_html PSCommand_html PSFunction_i PSCommand_i PSFunction_img PSCommand_img PSFunction_input PSCommand_input PSFunction_Install-PSHTMLVSCodeSnippets PSCommand_Install-PSHTMLVSCodeSnippets PSFunction_keygen PSCommand_keygen PSFunction_label PSCommand_label PSFunction_legend PSCommand_legend PSFunction_li PSCommand_li PSFunction_link PSCommand_link PSFunction_map PSCommand_map PSFunction_math PSCommand_math PSFunction_meta PSCommand_meta PSFunction_meter PSCommand_meter PSFunction_nav PSCommand_nav PSFunction_New-PSHTMLCDNAssetFile PSCommand_New-PSHTMLCDNAssetFile PSFunction_New-PSHTMLChart PSCommand_New-PSHTMLChart PSFunction_New-PSHTMLChartBarDataSet PSCommand_New-PSHTMLChartBarDataSet PSFunction_New-PSHTMLChartDataSet PSCommand_New-PSHTMLChartDataSet PSFunction_New-PSHTMLChartDoughnutDataSet PSCommand_New-PSHTMLChartDoughnutDataSet PSFunction_New-PSHTMLChartLineDataSet PSCommand_New-PSHTMLChartLineDataSet PSFunction_New-PSHTMLChartPieDataSet PSCommand_New-PSHTMLChartPieDataSet PSFunction_New-PSHTMLChartPolarAreaDataSet PSCommand_New-PSHTMLChartPolarAreaDataSet PSFunction_New-PSHTMLChartRadarDataSet PSCommand_New-PSHTMLChartRadarDataSet PSFunction_New-PSHTMLDropDownList PSCommand_New-PSHTMLDropDownList PSFunction_New-PSHTMLDropDownListItem PSCommand_New-PSHTMLDropDownListItem PSFunction_noscript PSCommand_noscript PSFunction_ol PSCommand_ol PSFunction_optgroup PSCommand_optgroup PSFunction_option PSCommand_option PSFunction_Out-PSHTMLDocument PSCommand_Out-PSHTMLDocument PSFunction_output PSCommand_output PSFunction_p PSCommand_p PSFunction_pre PSCommand_pre PSFunction_progress PSCommand_progress PSFunction_script PSCommand_script PSFunction_section PSCommand_section PSFunction_selecttag PSCommand_selecttag PSFunction_small PSCommand_small PSFunction_span PSCommand_span PSFunction_strong PSCommand_strong PSFunction_style PSCommand_style PSFunction_sub PSCommand_sub PSFunction_sup PSCommand_sup PSFunction_table PSCommand_table PSFunction_tbody PSCommand_tbody PSFunction_td PSCommand_td PSFunction_textarea PSCommand_textarea PSFunction_tfoot PSCommand_tfoot PSFunction_th PSCommand_th PSFunction_thead PSCommand_thead PSFunction_title PSCommand_title PSFunction_tr PSCommand_tr PSFunction_ul PSCommand_ul PSFunction_Write-PSHTMLAsset PSCommand_Write-PSHTMLAsset PSFunction_Write-PSHTMLInclude PSCommand_Write-PSHTMLInclude PSFunction_Write-PSHTMLMenu PSCommand_Write-PSHTMLMenu PSFunction_Write-PSHTMLSymbol PSCommand_Write-PSHTMLSymbol PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2023-11-25T17:24:13Z</S>
+          <S N="NormalizedVersion">0.8.2</S>
+          <S N="Authors">Stéphane van Gulick</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">PSHTML.nuspec|pshtml.configuration.json|PSHTML.psd1|PSHTML.psm1|Assets\BootStrap\bootstrap.min.css|Assets\BootStrap\bootstrap.min.js|Assets\Chartjs\Chart.bundle.min.js|Assets\Chartjs\LICENSE.md|Assets\Jquery\jquery-3.3.1.slim.min.js|Examples\Example-ConvertTo-HTMLtable.png|Examples\example01.ps1|Examples\example02.ps1|Examples\Example03.ps1|Examples\PSHTML_Example2.html|Examples\Charts\Chart01\BarChartExample.png|Examples\Charts\Chart01\Chart1.html|Examples\Charts\Chart01\Chart1.ps1|Examples\Charts\Chart01\MeetupAttendance.png|Examples\Charts\Chart02\FRPSUGMeetup.ps1|Examples\Charts\Chart02\MeetupGraph.html|Examples\Charts\Chart03\GraphCode.html|Examples\Charts\Chart04\3graphs.html|Examples\Charts\Chart04\4Charts.ps1|Examples\Charts\Chart04\4graphs.html|Examples\Charts\Chart05\BarChart.html|Examples\Charts\Chart05\BasicBarChart.ps1|Examples\Charts\Chart06\BasicPieChart.html|Examples\Charts\Chart06\BasicPieChart.ps1|Examples\Charts\Chart07\BasicDoughnutChart.html|Examples\Charts\Chart07\BasicDoughnutChart.ps1|Examples\Charts\Chart08\HorizontalBarChart.html|Examples\Charts\Chart08\HorizontalBarChart.ps1|Examples\Charts\Chart09\RadarChart.html|Examples\Charts\Chart09\RadarChart.ps1|Examples\Charts\Chart10\PolarArea.html|Examples\Charts\Chart10\PolarAreaChart.ps1|Examples\Example07\DropDownExamples.ps1|Examples\Example10\Example10.ps1|Examples\Example10\PSHTML_Basic_Example.html|Examples\Example11\Example11.html|Examples\Example11\Example11.ps1|Examples\Example12\Example12.ps1|Examples\Example13\Example13.ps1|Examples\Example14\Example14.ps1|Examples\Example15\Example15.ps1|Examples\Example16\Example16.ps1|Examples\Example17\Example17.ps1|Examples\Example18\Example18.ps1|Examples\Example18\Example18.Tests.ps1|Examples\Example18\PesterReport.html|Examples\Example18\TestREsults.Json|Examples\Example4\Example04.ps1|Examples\Example4\Templates\Body.ps1|Examples\Example4\Templates\Footer.ps1|Examples\Example4.1\Example4.1.ps1|Examples\Example4.1\Templates\Body.ps1|Examples\Example4.1\Templates\Footer.ps1|Examples\Example4.1\Templates\Head.ps1|Examples\Example5\Example5.html|Examples\Example5\Example5.ps1|Examples\Example6\Example6.html|Examples\Example6\Example6.ps1|Examples\Example6\tribute_snover.png|Includes\.gitkeep|Snippets\PsHtml_BaseWithBootStrapAndJquery.Snippet.code-snippets|Snippets\PsHtml_BaseWithBootStrapJqueryAndChartJS.Snippet.code-snippets|Snippets\PsHtml_Basic.Snippet.code-snippets|Snippets\PsHtml_BoilerPlate_full.Snippet.code-snippets|Snippets\PsHtml_BoilerPlate_medium.Snippet.code-snippets|Snippets\PsHtml_BoilerPlate_small.Snippet.code-snippets|Snippets\PsHtml_full.Snippet.code-snippets</S>
+          <S N="GUID">bdb3c0ee-e687-4774-9cf7-a3c67aa22118</S>
+          <S N="PowerShellVersion">5.0</S>
+          <S N="CompanyName">District</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Git\iContoso\modules\PSHTML\0.8.2</S>
+    </MS>
+  </Obj>
+</Objs>
